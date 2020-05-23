@@ -1,7 +1,7 @@
 ### Video Link 
     - Sent out 
 
-### Source Code 
+### Topic
 During this session we did a demo on minikube
 
 ### To replicate the demo on your local machine, clone this repo and cd into corresponding directory
