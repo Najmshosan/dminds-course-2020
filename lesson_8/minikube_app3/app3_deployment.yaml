@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment 
+metadata: 
+  name: minikube-app3
+spec: 
+  replicas: 7
+  selector:
+    matchLabels:
+      app: minikube-app3
+  template: 
+    metadata: 
+      labels: 
+        app: minikube-app3 
+    spec: 
+      containers: 
+      - name: minikube-app3
+        image: minikube_app3:v10.0 
+        ports: 
+        - containerPort: 80
